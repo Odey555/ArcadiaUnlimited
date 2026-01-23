@@ -29,24 +29,44 @@ RecipeViewerEvents.removeEntriesCompletely('item', arcadia => {
 	arcadia.remove('createdeco:zinc_coin')
 	arcadia.remove('createdeco:zinc_coinstack')
 	
+	
+	// Remove TFMG troublesome items
+	arcadia.remove('tfmg:empty_spool')
+	arcadia.remove('tfmg:copper_spool')
+	arcadia.remove('tfmg:constantan_spool')
+	arcadia.remove('tfmg:aluminum_spool')
+	arcadia.remove('tfmg:winding_machine')
+	arcadia.remove('tfmg:unfinished_electromagnetic_coil')
+	
+	
+	
 	// Remove duplicate gears
-    arcadia.remove({ id: 'industrialforegoing:iron_gear'})
-    arcadia.remove({ id: 'industrialforegoing:gold_gear'})
-    arcadia.remove({ id: 'industrialforegoing:diamond_gear'})
+    arcadia.remove('industrialforegoing:iron_gear')
+    arcadia.remove('industrialforegoing:gold_gear')
+    arcadia.remove('industrialforegoing:diamond_gear')
 	
 	// Remove useless Oritech clumps
-	arcadia.remove({ id: 'oritech:small_iron_clump'})
-	arcadia.remove({ id: 'oritech:small_gold_clump'})
-	arcadia.remove({ id: 'oritech:small_copper_clump'})
-	arcadia.remove({ id: 'oritech:small_nickel_clump'})
-	arcadia.remove({ id: 'oritech:small_platinum_clump'})
+	arcadia.remove('oritech:small_gold_clump')
+	arcadia.remove('oritech:small_copper_clump')
+	arcadia.remove('oritech:small_iron_clump')
+	arcadia.remove('oritech:small_nickel_clump')
+	arcadia.remove('oritech:small_platinum_clump')
+	arcadia.remove('oritech:gold_clump')
+	arcadia.remove('oritech:copper_clump')
+	arcadia.remove('oritech:iron_clump')
+	arcadia.remove('oritech:nickel_clump')
+	arcadia.remove('oritech:platinum_clump')
 	
 	//arcadia.remove('farmersdelight:food/ender_congee')
 	arcadia.remove('ends_delight:bubble_tea')
 	//arcadia.remove('arsdelight:cooking/cooking/wilden_sauce')
 	arcadia.remove('mekmm:author_doll')
-	arcadia.remove({ id: 'oritech:small_platinum_clump'})
+	arcadia.remove('oritech:small_platinum_clump')
 	
+	// Remove Create: Food compat recipes that have no uses
+	arcadia.remove('createfood:raw_snickerdoodle')
+	arcadia.remove('createfood:raw_sugar_cookie')
+	arcadia.remove('createfood:raw_green_tea_cookie')
 	
 	console.log('RecipeViewer.js executed')
 })

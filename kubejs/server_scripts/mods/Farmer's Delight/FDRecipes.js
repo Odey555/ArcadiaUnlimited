@@ -4,7 +4,6 @@ ServerEvents.recipes(arcadia => {
 	
 	arcadia.remove('ends_delight:food/ender_congee')
 	arcadia.remove('ends_delight:food/bubble_tea')
-	arcadia.remove('arsdelight:cooking/cooking/wilden_sauce')
 	
 	// Ender congee with altered input
 	arcadia.custom({
@@ -42,19 +41,5 @@ ServerEvents.recipes(arcadia => {
 			recipe_book_tab: "misc",
 			result: {count: 1, id: "ends_delight:bubble_tea"}
 	})
-	
-	/*arcadia.custom({
-		type: "farmersdelight:cooking",
-			container: {count: 1,id: "minecraft:bowl"},
-			cookingtime: 200,
-			experience: 1.0,
-			ingredients: [
-				{item: "arsdelight:wilden_horn_powder"},
-				{item:"arsdelight:wilden_spike_powder"},
-				{tag:"c:foods/bat_wing"}
-			],
-			recipe_book_tab: "misc",
-			result: {count: 1, id: "arsdelight:wilden_sauce"}
-	})*/
 	
 })

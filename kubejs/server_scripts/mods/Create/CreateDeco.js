@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(arcadia => {
 
 	// Remove coins

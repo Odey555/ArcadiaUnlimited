@@ -20,5 +20,22 @@ ServerEvents.recipes(arcadia => {
 		"ingredients": [{"item": "create:chromatic_compound"}, {"item": "minecraft:glowstone_dust"}, {"item": "minecraft:glowstone_dust"}],
 		"results": [{"id": "create:refined_radiance"}]
 	})*/
+	
+	
+	arcadia.custom({
+		"type": "create:mixing",
+		"heat_requirement": "superheated",
+		"ingredients": [
+			{
+				"type": "neoforge:single",
+				"amount": 250,
+				"fluid": "industrialforegoing:ether_gas"
+			},
+			{"item": "mysticalagradditions:insanium_block"},
+			{"item": "mysticalagradditions:insanium_block"},
+			{"item": "allthecompressed:antimatter_block_1x"}
+		],
+		"results": [{ "amount": 10, "id": "kubejs:liquid_arcadium" }]
+	})
 
 })
