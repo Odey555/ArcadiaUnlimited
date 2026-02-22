@@ -22,7 +22,7 @@ ServerEvents.recipes(arcadia => {
 	})*/
 	
 	
-	arcadia.custom({
+	/*arcadia.custom({
 		"type": "create:mixing",
 		"heat_requirement": "superheated",
 		"ingredients": [
@@ -36,6 +36,21 @@ ServerEvents.recipes(arcadia => {
 			{"item": "allthecompressed:antimatter_block_1x"}
 		],
 		"results": [{ "amount": 10, "id": "kubejs:liquid_arcadium" }]
+	})*/
+	
+	arcadia.custom({
+		type: 'create:mixing',
+		heat_requirement: 'heated',
+		ingredients:[
+			{
+				"type": "neoforge:single",
+				"amount": 250,
+				"fluid": "kubejs:activated_redstone"
+			},
+			{item: 'northstar:mars_deep_stone'}
+		],
+		results: [
+		{ chance: 0.01, id: 'kubejs:unstable_arcana_crystal' },
+		{ chance: 0.8, id: 'minecraft:netherite_scrap' }]
 	})
-
 })

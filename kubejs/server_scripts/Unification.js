@@ -4,8 +4,6 @@ ServerEvents.recipes(arcadia => {
     arcadia.remove({ id: 'industrialforegoing:iron_gear'})
     arcadia.remove({ id: 'industrialforegoing:gold_gear'})
     arcadia.remove({ id: 'industrialforegoing:diamond_gear'})
-    arcadia.remove({ id: 'industrialforegoing:netherite_gear'})
-    arcadia.remove({ id: 'silentgear:bronze_ingot'})
 
 	// Ingots
 	arcadia.remove({ id: 'mekanism:ingot_bronze'})
@@ -43,15 +41,4 @@ ServerEvents.recipes(arcadia => {
 	// Dusts	
 	arcadia.remove({ id: 'oritech:quartz_dust'})
 	arcadia.remove({ id: 'oritech:crushing/compat/create/quartz'})
-	
-    // Armor
-    arcadia.remove({ id: 'immersiveengineering:crafting/armor_steel_helmet'})
-    arcadia.remove({ id: 'immersiveengineering:crafting/armor_steel_chestplate'})
-    arcadia.remove({ id: 'immersiveengineering:crafting/armor_steel_leggings'})
-    arcadia.remove({ id: 'immersiveengineering:crafting/armor_steel_boots'})
-	
-    arcadia.remove({ id: 'create_sa:crafting/brass_helmet_recipe'})
-    arcadia.remove({ id: 'create_sa:crafting/brass_chestplate_recipe'})
-    arcadia.remove({ id: 'create_sa:crafting/brass_leggings_recipe'})
-    arcadia.remove({ id: 'create_sa:crafting/brass_boots_recipe'})
 })
