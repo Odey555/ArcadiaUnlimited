@@ -1,6 +1,0 @@
-
-ServerEvents.recipes(arcadia => {
-
-
-
-})
