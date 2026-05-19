@@ -1,0 +1,8 @@
+{
+    "entryname": "silver",
+    "oretag": "c:ores/silver",
+    "color": -5971737,
+    "drawing": true,
+    "order": 0,
+    "recipeItem": "c:ingots/silver"
+}

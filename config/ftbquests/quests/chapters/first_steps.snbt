@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_steps"
+	group: ""
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "794F464F82F1DFDF"
+	images: [{
+		height: 5.0d
+		image: "arcadia:textures/quests/arcadiaunlimited_logo.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "3F845BF2070785CA"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "0ECB116E96B63C4B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			id: "1B989065E13C41F5"
+			rewards: [{
+				id: "6B904F1694196306"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0FB27CFF1219E588"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			id: "448FD33684707179"
+			rewards: [{
+				id: "461E38744A9C023C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "trashslot:item/trashcan"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0BC8B0AF6FB2B5B8"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			id: "3C3C6858AB097373"
+			rewards: [{
+				id: "7EBC01D69B8E64DA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4991995E8C3EE004"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "14CD5AE042823D55"
+			rewards: [{
+				id: "027988A25E117109"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "41BE516B7B4DF845"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			id: "1168A502113BCF33"
+			rewards: [
+				{
+					count: 2
+					id: "31BA85E532AFAF32"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "04B2A1BB04ABCCB9"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "5F245C9DF0801E7D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "0AC9881A3E3ACD83"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			id: "0C2978AC7A70E200"
+			tasks: [{
+				id: "118165F9EA01642E"
+				item: { count: 1, id: "redstonequill:quill" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F845BF2070785CA"]
+			id: "3EB87293BBF4772D"
+			tasks: [{
+				id: "3C7AE8EEBEF4EADD"
+				item: { count: 1, id: "minecraft:spruce_planks" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+}

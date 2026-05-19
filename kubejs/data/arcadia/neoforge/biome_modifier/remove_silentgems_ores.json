@@ -1,0 +1,30 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "silentgems:overworld/ruby_ore",
+    "silentgems:overworld/carnelian_ore",
+    "silentgems:overworld/topaz_ore",
+    "silentgems:overworld/citrine_ore",
+    "silentgems:overworld/heliodor_ore",
+    "silentgems:overworld/moldavite_ore",
+    "silentgems:overworld/peridot_ore",
+    "silentgems:overworld/kyanite_ore",
+    "silentgems:overworld/iolite_ore",
+    "silentgems:overworld/sapphire_ore",
+    "silentgems:overworld/silver_ore",
+	"silentgems:overworld/alexandrite_ore",
+	"silentgems:overworld/ammolite_ore",
+	"silentgems:overworld/aquamarine_ore",
+	"silentgems:overworld/black_diamond_ore",
+	"silentgems:overworld/chaos_ore",
+	"silentgems:overworld/garnet_ore",
+	"silentgems:overworld/opal_ore",
+	"silentgems:overworld/pearl_ore",
+	"silentgems:overworld/rose_quartz_ore",
+	"silentgems:overworld/tanzanite_ore",
+	"silentgems:overworld/turquoise_ore",
+	"silentgems:overworld/white_diamond_ore"
+  ],
+  "steps": ["underground_ores"]
+}

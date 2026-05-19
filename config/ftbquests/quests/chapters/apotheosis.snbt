@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "4B80EA56354AB6EC"
+	icon: {
+		id: "apotheosis:gem_dust"
+	}
+	id: "745ACAD29FC4CE1C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

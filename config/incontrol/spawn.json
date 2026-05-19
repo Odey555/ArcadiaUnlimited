@@ -1,0 +1,17 @@
+[
+	{
+		"mob": "irons_spellbooks:necromancer",
+		"mincount": 5,
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:zombie",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:bat",
+		"mincount": 15,
+		"result": "deny"
+	}
+]

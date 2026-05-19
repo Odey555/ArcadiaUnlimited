@@ -1,0 +1,27 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Odey555",
+      "uniqueId": "ef423543-893f-4cad-8f71-40d90276889c"
+    },
+    "time": 1778215996086,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rfbzeyULsi"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1778215511756,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/btLmyahUoO"
+    }
+  }
+]

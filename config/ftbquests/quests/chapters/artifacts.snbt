@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "4B80EA56354AB6EC"
+	id: "3AAE73BB91260B73"
+	images: [
+		{
+			height: 1.5d
+			image: "arcadia:textures/quests/artifacts/artifacts_logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "arcadia:textures/quests/artifacts/artifacts_necklace.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "arcadia:textures/quests/artifacts/artifacts_belt.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "arcadia:textures/quests/artifacts/artifacts_feet.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "arcadia:textures/quests/artifacts/artifacts_hands.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "arcadia:textures/quests/artifacts/artifacts_head.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "31290B38AC3FCC4B"
+			tasks: [{
+				id: "5E3288C149F9005D"
+				item: { components: { "relics:data": { abilities: { abilities: { shrinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { multiplier: { initialValue: 0.20805d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:charm_of_shrinking" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "7763E3441F41AA41"
+			tasks: [{
+				id: "0967554B3A4DE624"
+				item: { components: { "relics:data": { abilities: { abilities: { dipping: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { air: { initialValue: 0.21116d } } }, dive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:charm_of_sinking" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "6B818B8351A82971"
+			tasks: [{
+				id: "4051902C39A4DB4F"
+				item: { components: { "relics:data": { abilities: { abilities: { poison: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.14261d }, multiplier: { initialValue: 0.11108d }, time: { initialValue: 2.89291d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:thorn_pendant" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "0F35991C291C4A0E"
+			tasks: [{
+				id: "412D20A54FD3BBC8"
+				item: { components: { "relics:data": { abilities: { abilities: { fire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.28076d }, time: { initialValue: 2.6323d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flame_pendant" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "4AFDB59E6D801564"
+			tasks: [{
+				id: "1EC79949AC03F8DC"
+				item: { components: { "relics:data": { abilities: { abilities: { panic: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { movement: { initialValue: 0.17447d }, radius: { initialValue: 6.13956d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:panic_necklace" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "2412A209D160D9F4"
+			tasks: [{
+				id: "5806366A83B499CC"
+				item: { components: { "relics:data": { abilities: { abilities: { invulnerability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.49616d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cross_necklace" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "4E6B59C84DFD8291"
+			tasks: [{
+				id: "1642DB6E65BCCA12"
+				item: { components: { "relics:data": { abilities: { abilities: { lightning: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.19281d }, damage: { initialValue: 2.26027d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:shock_pendant" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2BE8FBB44DE27760"
+			tasks: [{
+				id: "0FF87CDB2C80EFED"
+				item: { components: { "relics:data": { abilities: { abilities: { luck: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.16686d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:lucky_scarf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7F503004A16DA48B"
+			tasks: [{
+				id: "1B27C3DDB1182A6C"
+				item: { components: { "relics:data": { abilities: { abilities: { invisible: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { time: { initialValue: 107.72126d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:scarf_of_invisibility" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "5E8A70202C634056"
+			shape: "rsquare"
+			tasks: [{
+				id: "663AEC317D316AC3"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E8A70202C634056"]
+			icon_scale: 0.9d
+			id: "298C954485ED080E"
+			rewards: [{
+				id: "43D3EDFFCD4BC2E1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "59A7D0A65ABB74D0"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "artifacts:mimic_spawn_egg"
+			}
+			id: "7D84668439545AC0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5CA152A439C64AA0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+}

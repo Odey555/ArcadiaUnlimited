@@ -1,0 +1,70 @@
+{
+  "mod_priorities": [
+    "minecraft",
+    "alltheores",
+    "mekanism",
+    "create",
+	"tfmg",
+    "immersiveengineering",
+    "ae2",
+	"oritech",
+    "industrialforegoing",
+    "pneumaticcraft"
+  ],
+  "priority_overrides": {},
+  "stone_variants": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "netherrack",
+    "end_stone"
+  ],
+  "tags": [
+    "c:dusts/{material}",
+    "c:gears/{material}",
+    "c:gems/{material}",
+    "c:ingots/{material}",
+    "c:nuggets/{material}",
+    "c:ores/{material}",
+    "c:plates/{material}",
+    "c:raw_materials/{material}",
+    "c:rods/{material}",
+    "c:storage_blocks/raw_{material}",
+    "c:storage_blocks/{material}",
+    "c:wires/{material}",
+	"c:clumps/{material}",
+    "c:crystals/{material}",
+    "c:dirty_dusts/{material}",
+    "c:shards/{material}",
+    "c:silicon",
+    "c:plastics"
+  ],
+  "ignored_tags": [],
+  "ignored_items": ["mekanism:dust_sulfur", "tfmg:heavy_plate", "oritech:biosteel_ingot", "oritech:plastic_sheet"],
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag"
+  ],
+  "ignored_recipe_ids": [
+    "create:crushing/compat/silentgems/deepslate_carnelian_ore",
+    "create:crushing/compat/silentgems/deepslate_iolite_ore",
+    "create:crushing/compat/silentgems/deepslate_ruby_ore",
+    "create:crushing/compat/silentgems/deepslate_white_diamond_ore",
+    "create:crushing/compat/silentgems/deepslate_citrine_ore",
+    "create:crushing/compat/silentgems/deepslate_kyanite_ore",
+    "create:crushing/compat/silentgems/deepslate_ammolite_ore",
+    "create:crushing/compat/silentgems/sapphire_ore",
+    "create:crushing/compat/silentgems/deepslate_peridot_ore",
+    "create:crushing/compat/silentgems/peridot_ore",
+    "create:crushing/compat/silentgems/deepslate_rose_quartz_ore",
+    "create:crushing/compat/silentgems/deepslate_black_diamond_ore",
+    "create:crushing/compat/silentgems/deepslate_sapphire_ore",
+    "create:crushing/compat/silentgems/deepslate_turquoise_ore",
+    "create:crushing/compat/silentgems/ruby_ore",
+    "create:crushing/compat/silentgems/deepslate_alexandrite_ore"
+  ],
+  "recipe_viewer_hiding": true,
+  "loot_unification": true,
+  "ignored_loot_tables": []
+}
